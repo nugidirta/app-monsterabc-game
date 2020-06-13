@@ -1,0 +1,94 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:local="clr-namespace:MonsterABC.Utils"
+             xmlns:local1="clr-namespace:MonsterABC.Ads"
+             x:Class="MonsterABC.Views.ItemsPage"
+              Title="{Binding Title}"
+             x:Name="BrowseItemsPage">
+
+    <ContentPage.Resources>
+        <ResourceDictionary>
+            <local:ImageResourceConverter x:Key="imageResourceCvt" />
+        </ResourceDictionary>
+    </ContentPage.Resources>
+
+
+    <!--<ContentPage.ToolbarItems>
+        <ToolbarItem Text="Add" Clicked="AddItem_Clicked">
+            <ToolbarItem.Icon>
+                <OnPlatform x:TypeArguments="FileImageSource">
+                    <On Platform="UWP" Value="add.png"/>
+                </OnPlatform>
+            </ToolbarItem.Icon>
+        </ToolbarItem>
+    </ContentPage.ToolbarItems>-->
+    
+    <ContentPage.Content>
+        <StackLayout>
+            <ListView x:Name="ItemsListView" 
+                ItemsSource="{Binding Items}"
+                VerticalOptions="FillAndExpand"
+                 HasUnevenRows="true"
+                 RefreshCommand="{Binding LoadItemsCommand}"
+                 IsPullToRefreshEnabled="true"
+                 IsRefreshing="{Binding IsBusy, Mode=OneWay}"
+                 CachingStrategy="RecycleElement"
+                 ItemSelected="OnItemSelected">
+                <ListView.ItemTemplate>
+                    <DataTemplate>
+                        <ViewCell>
+                            <Grid>
+                                
+                                <!--<Grid.RowDefinitions>-->
+                                    <!--<RowDefinition Height="*"  />-->
+                                    <!--<RowDefinition Height="*"  />-->
+                                <!--</Grid.RowDefinitions>-->
+                                <!-- Grid Lebih proposional untuk membagi space -->
+                                <StackLayout>
+                                    <Grid>
+                                        <Grid.ColumnDefinitions>
+                                            <ColumnDefinition Width="200"  />
+                                            <ColumnDefinition Width="*"  />
+                                        </Grid.ColumnDefinitions>
+
+                                        <StackLayout Grid.Column="0" Padding="10">
+                                            <Image Source="{Binding Image, Converter={StaticResource imageResourceCvt}}" 
+                                       HorizontalOptions="Center" VerticalOptions="Center"
+                                       HeightRequest="200"
+                                       WidthRequest="200"  />
+                                        </StackLayout>
+
+                                        <!-- Bagian konten untuk informasi detail item -->
+                                        <StackLayout  Grid.Column="1" Orientation="Vertical" Margin="0,0,0,0" VerticalOptions="CenterAndExpand">
+                                            <Label Text="{Binding Text}" 
+                                       LineBreakMode="NoWrap" 
+                                       Style="{DynamicResource ListItemTextStyle}" 
+                                       FontSize="Large" />
+                                            <Label Text="{Binding Description}" 
+                                       LineBreakMode="NoWrap"
+                                       Style="{DynamicResource ListItemDetailTextStyle}"
+                                       FontSize="13" />
+                                        </StackLayout>
+
+
+                                    </Grid>
+                                </StackLayout>
+                                <StackLayout IsVisible="{Binding Iklan}">
+                                    <local1:AdControlView IsVisible="{Binding Iklan}" VerticalOptions="End" HorizontalOptions="Center"/>
+                                </StackLayout>
+                            </Grid>
+                        </ViewCell>
+                                                
+                    </DataTemplate>
+                </ListView.ItemTemplate>
+            </ListView>
+
+            
+            <!--<Button x:Name="ButtonCallAds" Text="Show video Ads" VerticalOptions="End" HorizontalOptions="Center" 
+                    Clicked="ButtonCallAds_OnClicked"/>-->
+            <!--<local1:AdControlView VerticalOptions="End" HorizontalOptions="Center"/>-->
+            
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

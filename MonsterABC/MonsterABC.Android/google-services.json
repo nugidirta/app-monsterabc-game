@@ -1,0 +1,171 @@
+{
+  "project_info": {
+    "project_number": "722952417262",
+    "firebase_url": "https://omkaramantra.firebaseio.com",
+    "project_id": "omkaramantra",
+    "storage_bucket": "omkaramantra.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:722952417262:android:675cecb6d7ede952",
+        "android_client_info": {
+          "package_name": "com.retroapps.MantraOmKara"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "722952417262-d3sfboea9grhrggkf2mtogcc367f79a4.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDUubOBGVNsIb6Ns8SYLQAI4jFALzD7UfQ"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      },
+      "admob_app_id": "ca-app-pub-9052306741159536~9530675471"
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:722952417262:android:611960a152778d19",
+        "android_client_info": {
+          "package_name": "com.retroapps.MonsterABC"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "722952417262-d3sfboea9grhrggkf2mtogcc367f79a4.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDUubOBGVNsIb6Ns8SYLQAI4jFALzD7UfQ"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      },
+      "admob_app_id": "ca-app-pub-9052306741159536~6706721491"
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:722952417262:android:5d93053bac3fddcb",
+        "android_client_info": {
+          "package_name": "com.retroapps.OmJaiGan"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "722952417262-d3sfboea9grhrggkf2mtogcc367f79a4.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDUubOBGVNsIb6Ns8SYLQAI4jFALzD7UfQ"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      },
+      "admob_app_id": "ca-app-pub-9052306741159536~6191890218"
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:722952417262:android:583976375db5a458",
+        "android_client_info": {
+          "package_name": "retro.apps.omharaharamahadeva"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "722952417262-d3sfboea9grhrggkf2mtogcc367f79a4.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDUubOBGVNsIb6Ns8SYLQAI4jFALzD7UfQ"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      },
+      "admob_app_id": "ca-app-pub-9052306741159536~2405903466"
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:722952417262:android:1a656fd959c780fe",
+        "android_client_info": {
+          "package_name": "retro.apps.ommanipadmehum"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "722952417262-d3sfboea9grhrggkf2mtogcc367f79a4.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDUubOBGVNsIb6Ns8SYLQAI4jFALzD7UfQ"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      },
+      "admob_app_id": "ca-app-pub-9052306741159536~4240336682"
+    }
+  ],
+  "configuration_version": "1"
+}

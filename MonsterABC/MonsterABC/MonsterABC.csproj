@@ -1,0 +1,128 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+  </PropertyGroup>
+
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
+    <DebugType>pdbonly</DebugType>
+    <DebugSymbols>true</DebugSymbols>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="Audio\A.mp3" />
+    <None Remove="Audio\B.mp3" />
+    <None Remove="Audio\C.mp3" />
+    <None Remove="Audio\D.mp3" />
+    <None Remove="Audio\E.mp3" />
+    <None Remove="Audio\F.mp3" />
+    <None Remove="Audio\G.mp3" />
+    <None Remove="Audio\H.mp3" />
+    <None Remove="Audio\I.mp3" />
+    <None Remove="Audio\J.mp3" />
+    <None Remove="Audio\K.mp3" />
+    <None Remove="Audio\L.mp3" />
+    <None Remove="Audio\M.mp3" />
+    <None Remove="Audio\N.mp3" />
+    <None Remove="Audio\O.mp3" />
+    <None Remove="Audio\P.mp3" />
+    <None Remove="Audio\Q.mp3" />
+    <None Remove="Audio\R.mp3" />
+    <None Remove="Audio\S.mp3" />
+    <None Remove="Audio\T.mp3" />
+    <None Remove="Audio\U.mp3" />
+    <None Remove="Audio\V.mp3" />
+    <None Remove="Audio\W.mp3" />
+    <None Remove="Audio\X.mp3" />
+    <None Remove="Audio\Y.mp3" />
+    <None Remove="Audio\Z.mp3" />
+    <None Remove="Images\A.png" />
+    <None Remove="Images\B.png" />
+    <None Remove="Images\Blue.png" />
+    <None Remove="Images\C.png" />
+    <None Remove="Images\D.png" />
+    <None Remove="Images\E.png" />
+    <None Remove="Images\F.png" />
+    <None Remove="Images\G.png" />
+    <None Remove="Images\H.png" />
+    <None Remove="Images\I.png" />
+    <None Remove="Images\J.png" />
+    <None Remove="Images\K.png" />
+    <None Remove="Images\L.png" />
+    <None Remove="Images\M.png" />
+    <None Remove="Images\N.png" />
+    <None Remove="Images\O.png" />
+    <None Remove="Images\P.png" />
+    <None Remove="Images\Pink.png" />
+    <None Remove="Images\Q.png" />
+    <None Remove="Images\R.png" />
+    <None Remove="Images\S.png" />
+    <None Remove="Images\T.png" />
+    <None Remove="Images\U.png" />
+    <None Remove="Images\V.png" />
+    <None Remove="Images\W.png" />
+    <None Remove="Images\X.png" />
+    <None Remove="Images\Y.png" />
+    <None Remove="Images\Z.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <EmbeddedResource Include="Audio\A.mp3" />
+    <EmbeddedResource Include="Audio\B.mp3" />
+    <EmbeddedResource Include="Audio\C.mp3" />
+    <EmbeddedResource Include="Audio\D.mp3" />
+    <EmbeddedResource Include="Audio\E.mp3" />
+    <EmbeddedResource Include="Audio\F.mp3" />
+    <EmbeddedResource Include="Audio\G.mp3" />
+    <EmbeddedResource Include="Audio\H.mp3" />
+    <EmbeddedResource Include="Audio\I.mp3" />
+    <EmbeddedResource Include="Audio\J.mp3" />
+    <EmbeddedResource Include="Audio\K.mp3" />
+    <EmbeddedResource Include="Audio\L.mp3" />
+    <EmbeddedResource Include="Audio\M.mp3" />
+    <EmbeddedResource Include="Audio\N.mp3" />
+    <EmbeddedResource Include="Audio\O.mp3" />
+    <EmbeddedResource Include="Audio\P.mp3" />
+    <EmbeddedResource Include="Audio\Q.mp3" />
+    <EmbeddedResource Include="Audio\R.mp3" />
+    <EmbeddedResource Include="Audio\S.mp3" />
+    <EmbeddedResource Include="Audio\T.mp3" />
+    <EmbeddedResource Include="Audio\U.mp3" />
+    <EmbeddedResource Include="Audio\V.mp3" />
+    <EmbeddedResource Include="Audio\W.mp3" />
+    <EmbeddedResource Include="Audio\X.mp3" />
+    <EmbeddedResource Include="Audio\Y.mp3" />
+    <EmbeddedResource Include="Audio\Z.mp3" />
+    <EmbeddedResource Include="Images\A.png" />
+    <EmbeddedResource Include="Images\B.png" />
+    <EmbeddedResource Include="Images\C.png" />
+    <EmbeddedResource Include="Images\D.png" />
+    <EmbeddedResource Include="Images\E.png" />
+    <EmbeddedResource Include="Images\F.png" />
+    <EmbeddedResource Include="Images\G.png" />
+    <EmbeddedResource Include="Images\H.png" />
+    <EmbeddedResource Include="Images\I.png" />
+    <EmbeddedResource Include="Images\J.png" />
+    <EmbeddedResource Include="Images\K.png" />
+    <EmbeddedResource Include="Images\L.png" />
+    <EmbeddedResource Include="Images\M.png" />
+    <EmbeddedResource Include="Images\N.png" />
+    <EmbeddedResource Include="Images\O.png" />
+    <EmbeddedResource Include="Images\P.png" />
+    <EmbeddedResource Include="Images\Q.png" />
+    <EmbeddedResource Include="Images\R.png" />
+    <EmbeddedResource Include="Images\S.png" />
+    <EmbeddedResource Include="Images\T.png" />
+    <EmbeddedResource Include="Images\U.png" />
+    <EmbeddedResource Include="Images\V.png" />
+    <EmbeddedResource Include="Images\W.png" />
+    <EmbeddedResource Include="Images\X.png" />
+    <EmbeddedResource Include="Images\Y.png" />
+    <EmbeddedResource Include="Images\Z.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Xam.Plugin.SimpleAudioPlayer" Version="1.1.0" />
+    <PackageReference Include="Xamarin.Forms" Version="3.1.0.697729" />  
+  </ItemGroup>
+</Project>
